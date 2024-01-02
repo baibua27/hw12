@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.search-bar {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-bar > input,
+.search-bar > label {
+  width: 100%;
+  display: block;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar > input:focus,
+.search-bar > label {
+  outline: none;
+  border-color: palevioletred;
+}
+
+.filter-table {
+  margin: 20px 0;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: palevioletred;
+  color: #fff;
+}
+
+.product-table td {
+  background-color: #ecf0f1;
+}
+
+.category-row {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.text-red {
+  color: red;
+  font-weight: bold;
+}
+
+.product-table tr:hover {
+  background-color: #e0e0e0;
+}
